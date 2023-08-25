@@ -1,0 +1,13 @@
+[workspace]
+members = ["crates/*"]
+
+[workspace.package]
+name = "root"
+version = "0.0.0"
+authors = ["Blaine Bublitz <blaine.bublitz@gmail.com>"]
+edition = "2021"
+rust-version = "1.71.1"
+
+[workspace.dependencies]
+
+[patch.crates-io]

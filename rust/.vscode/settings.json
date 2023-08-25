@@ -1,0 +1,13 @@
+{
+    "nix.serverPath": "nil",
+    "nix.enableLanguageServer": true,
+    "nix.serverSettings": {
+        "nil": {
+            "formatting": {
+                "command": [
+                    "nixpkgs-fmt"
+                ]
+            }
+        }
+    },
+}
